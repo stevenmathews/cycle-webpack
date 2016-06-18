@@ -55,5 +55,10 @@
   },
   "standard": {
     "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "@cycle/dom": "^10.0.0-rc34",
+    "@cycle/xstream-run": "^3.0.2",
+    "xstream": "^5.0.6"
   }
 }
