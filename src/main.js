@@ -1,8 +1,11 @@
 import xs from 'xstream'
-import { p } from '@cycle/dom'
+import Landing from 'pages/Landing'
+import Router from 'components/Router'
+
+const routes = {
+  '/': Landing
+}
 
 export default function main (sources) {
-  return {
-    DOM: xs.of(p('cycle test'))
-  }
+  return Router({...sources, routes$: xs.of(routes)})
 }
