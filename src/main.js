@@ -7,5 +7,8 @@ const routes = {
 }
 
 export default function main (sources) {
-  return Router({...sources, routes$: xs.of(routes)})
+  const page = Router({...sources, routes$: xs.of(routes)})
+  return {
+    DOM: page.DOM
+  }
 }
