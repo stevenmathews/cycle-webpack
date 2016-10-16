@@ -1,7 +1,7 @@
 {
   "name": "cycle-webpack",
   "description": "Cycle xstream with webpack boilerplate",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Steve Mathews",
   "bugs": {
     "url": "https://github.com/stevenmathews/cycle-webpack/issues"
