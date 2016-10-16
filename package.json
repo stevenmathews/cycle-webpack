@@ -24,7 +24,7 @@
     "release-minor": "npm version minor -m \"chore(package): release version %s\"",
     "release-major": "npm version major -m \"chore(package): release version %s\"",
     "commit": "git-cz",
-    "deploy": "surge -p public -d cycle-webpack.surge.sh",
+    "deploy": "surge -p dist -d cycle-webpack.surge.sh",
     "psi": "psi 'cycle-webpack.surge.sh'"
   },
   "config": {
